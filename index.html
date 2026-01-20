@@ -1,76 +1,762 @@
-<!DOCTYPE html>
+<! DOCTYPE HTML>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #f0f0f0 0%, #d0e1f9 100%);
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #0073e6;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            transition: background 0.3s;
-        }
-        header:hover {
-            background: #005bb5;
-        }
-        section {
-            margin: 20px;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            animation: fadeIn 1s;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #0073e6;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        @media (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
-            section {
-                margin: 0;
-                padding: 10px;
-            }
-        }
-    </style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Amjad Khan - Full-Stack Web Developer & Software Engineer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Experienced full-stack web developer with expertise in . NET Core, JavaScript, React, and UI/UX design. View my portfolio and let's build amazing web applications together.">
+	<meta name="keywords" content="Web Developer, Full-Stack Developer, Software Engineer, .NET Core, JavaScript, ReactJS, UI Designer, Pakistan" />
+	<meta name="author" content="Amjad Khan" />
+	<meta name="theme-color" content="#6c63ff" />
+
+	<!-- Bing verification -->
+	<meta name="msvalidate. 01" content="26C77A5570A3761D237F72FAF6296A8B" />
+	
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="Amjad Khan - Full-Stack Web Developer" />
+	<meta property="og:image" content="images/about. jpeg" />
+	<meta property="og:url" content="https://amjadkhanniazi.github.io/my-cv/" />
+	<meta property="og: site_name" content="Amjad Khan Portfolio" />
+	<meta property="og:description" content="Full-stack web developer showcasing portfolio and skills" />
+	<meta name="twitter:title" content="Amjad Khan - Web Developer" />
+	<meta name="twitter:image" content="images/about.jpeg" />
+	<meta name="twitter:url" content="https://amjadkhanniazi.github.io/my-cv/" />
+	<meta name="twitter:card" content="summary_large_image" />
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/respond. min.js"></script>
+	<![endif]-->
 </head>
 <body>
-    <header>
-        <h1>My CV</h1>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Insert a brief introduction about yourself here.</p>
-    </section>
-    <section>
-        <h2>Experience</h2>
-        <p>List your work experience here.</p>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <p>Detail your educational background here.</p>
-    </section>
-    <footer>
-        <p>Contact: your.email@example.com</p>
-    </footer>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+			<!-- Mobile Navigation Toggle -->
+			<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+			
+			<!-- Sidebar Navigation -->
+			<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+				<div class="sidebar-content">
+					<div class="text-center profile-section">
+						<div class="author-img-wrapper">
+							<div class="author-img" style="background-image: url(images/about.jpeg);"></div>
+							<div class="status-indicator"></div>
+						</div>
+						<h1 id="colorlib-logo"><a href="index.html">Amjad Khan</a></h1>
+						<p class="position">
+							<span class="badge badge-primary">Full-Stack Developer</span>
+						</p>
+						<p class="location-text">📍 Lahore, Pakistan</p>
+					</div>
+
+					<!-- Navigation Menu -->
+					<nav id="colorlib-main-menu" role="navigation" class="navbar">
+						<div id="navbar" class="collapse">
+							<ul class="nav-menu">
+								<li class="nav-item active"><a href="#" class="nav-link" data-nav-section="home">🏠 Home</a></li>
+								<li class="nav-item"><a href="#" class="nav-link" data-nav-section="about">👤 About Me</a></li>
+								<li class="nav-item"><a href="#" class="nav-link" data-nav-section="services">💼 Portfolio</a></li>
+								<li class="nav-item"><a href="#" class="nav-link" data-nav-section="skills">⚡ Skills</a></li>
+								<li class="nav-item"><a href="#" class="nav-link" data-nav-section="education">🎓 Education</a></li>
+								<li class="nav-item"><a href="#" class="nav-link" data-nav-section="contact">✉️ Contact</a></li>
+							</ul>
+						</div>
+					</nav>
+
+					<!-- Social Links Footer -->
+					<div class="colorlib-footer">
+						<p class="copyright">
+							<small>&copy; <script>document.write(new Date().getFullYear());</script> Amjad Khan. All rights reserved.</small>
+						</p>
+						<ul class="social-links">
+							<li><a href="#" title="Facebook" target="_blank"><i class="icon-facebook2"></i></a></li>
+							<li><a href="https://twitter.com/AmjadKhanNiaz11" title="Twitter" target="_blank"><i class="icon-twitter2"></i></a></li>
+							<li><a href="https://www.instagram.com/ligitxmonster/" title="Instagram" target="_blank"><i class="icon-instagram"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/amjad-khan-58232b167/" title="LinkedIn" target="_blank"><i class="icon-linkedin2"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+
+			<!-- Main Content -->
+			<div id="colorlib-main">
+				<!-- Hero Section -->
+				<section id="colorlib-hero" class="js-fullheight hero-section" data-section="home">
+					<div class="flexslider js-fullheight">
+						<ul class="slides">
+							<!-- Hero Slide 1 -->
+							<li style="background-image: url(images/img_bg_1.jpg); background-attachment: fixed;">
+								<div class="overlay overlay-gradient"></div>
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+											<div class="slider-text-inner js-fullheight">
+												<div class="desc">
+													<h2 class="hero-title">Hi there!  👋</h2>
+													<h1 class="hero-subtitle">I'm Amjad Khan</h1>
+													<p class="hero-description">Full-Stack Web Developer & Software Engineer</p>
+													<p class="hero-tagline">Building elegant, scalable solutions with modern technologies</p>
+													<p class="hero-cta">
+														<a href="https://drive.google.com/file/d/1_41Ep0tOaJlo3BOyAPH2Eiu_adkN66Dk/view? usp=sharing" target="_blank" class="btn btn-primary btn-lg btn-download">
+															<i class="icon-download4"></i> Download CV
+														</a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+
+							<!-- Hero Slide 2 -->
+							<li style="background-image: url(images/amjad-khan. jpg); background-attachment: fixed;">
+								<div class="overlay overlay-dark"></div>
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+											<div class="slider-text-inner js-fullheight">
+												<div class="desc">
+													<h1 class="hero-title" style="color: white;">I Create Stunning Web Experiences</h1>
+													<p style="color: rgba(255, 255, 255, 0.9); font-size: 1.1rem; margin-top: 1rem;">Transforming ideas into powerful digital solutions</p>
+													<p class="hero-cta">
+														<a href="#services" class="btn btn-primary btn-lg" style="color: white; border-color: white;">
+															<i class="icon-briefcase3"></i> View My Work
+														</a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- About Section -->
+				<section class="colorlib-about section-padding" data-section="about">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12">
+								<!-- About Header -->
+								<div class="section-header animate-box" data-animate-effect="fadeInUp">
+									<span class="heading-meta">Get to Know Me</span>
+									<h2 class="section-title">Who Am I?</h2>
+									<div class="title-underline"></div>
+								</div>
+
+								<!-- About Content -->
+								<div class="row row-bottom-padded-md">
+									<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+										<div class="about-content">
+											<p class="about-intro"><strong>Hey!  I'm Amjad Khan</strong>, a passionate full-stack web developer based in Lahore, Pakistan.</p>
+											<p>I specialize in building high-performance web applications with beautiful, intuitive user interfaces. My expertise spans across frontend technologies like React and modern CSS, as well as backend solutions using . NET Core and SQL Server. I love tackling complex challenges and creating solutions that not only work flawlessly but also provide an exceptional user experience.</p>
+											<p>Currently pursuing my undergraduate degree in Computer Science at the University of Engineering and Technology (UET), I combine academic knowledge with practical experience gained from working with talented engineering and development teams on diverse, meaningful projects.</p>
+											<p class="about-passion">🎯 I'm passionate about continuous learning, collaborative development, and delivering code that makes a difference. </p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Service Cards -->
+								<div class="row services-grid">
+									<div class="col-md-4 col-sm-6 animate-box service-card" data-animate-effect="fadeInUp">
+										<div class="services color-1">
+											<div class="service-icon">
+												<i class="icon-bulb"></i>
+											</div>
+											<h3>UI/UX Design</h3>
+											<p>Creating beautiful and functional user interfaces that users love to interact with.</p>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-6 animate-box service-card" data-animate-effect="fadeInUp">
+										<div class="services color-2">
+											<div class="service-icon">
+												<i class="icon-globe-outline"></i>
+											</div>
+											<h3>Web Development</h3>
+											<p>Building responsive, scalable web applications using modern technologies and best practices.</p>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-6 animate-box service-card" data-animate-effect="fadeInUp">
+										<div class="services color-3">
+											<div class="service-icon">
+												<i class="icon-data"></i>
+											</div>
+											<h3>Backend & APIs</h3>
+											<p>Developing robust backend systems and RESTful APIs that power modern applications.</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- CTA Section -->
+								<div class="row row-top-padded-lg">
+									<div class="col-md-12 animate-box" data-animate-effect="fadeInUp">
+										<div class="cta-section">
+											<h3>Let's Work Together!</h3>
+											<p>I've successfully completed 3+ projects and have the expertise to bring your vision to life. </p>
+											<a href="#contactsec" data-nav-section="contact" class="btn btn-hire">Get In Touch</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Portfolio Section -->
+				<section class="colorlib-work portfolio-section" data-section="services" id="services">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<!-- Portfolio Header -->
+								<div class="section-header animate-box" data-animate-effect="fadeInUp">
+									<span class="heading-meta">Showcase</span>
+									<h2 class="section-title">Featured Projects</h2>
+									<div class="title-underline"></div>
+									<p class="subtitle-text">Here are some of my recent works and projects I'm proud of</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Projects Grid -->
+						<div class="row projects-grid">
+							<div class="col-md-6 col-sm-12 animate-box project-item" data-animate-effect="fadeInLeft">
+								<div class="project" style="background-image: url(images/sws. jpg);">
+									<div class="project-overlay"></div>
+									<div class="project-desc">
+										<div class="project-content">
+											<h3><a href="https://github.com/Amjad-Khan-360/SocialWelfare" target="_blank">Social Welfare System</a></h3>
+											<p class="project-tags">
+												<span class="tag">Frontend</span>
+												<span class="tag">JavaScript</span>
+											</p>
+											<p class="project-details">A comprehensive web platform for managing social welfare initiatives and community support programs.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12 animate-box project-item" data-animate-effect="fadeInRight">
+								<div class="project" style="background-image: url(images/cpp.jpg);">
+									<div class="project-overlay"></div>
+									<div class="project-desc">
+										<div class="project-content">
+											<h3><a href="https://github.com/Amjad-Khan-360/cpp-working" target="_blank">Library Management System</a></h3>
+											<p class="project-tags">
+												<span class="tag">Desktop</span>
+												<span class="tag">C++</span>
+											</p>
+											<p class="project-details">A robust console-based application for managing library operations and book inventories.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12 animate-box project-item" data-animate-effect="fadeInLeft">
+								<div class="project" style="background-image: url(images/Color\ logo\ with\ background.png);">
+									<div class="project-overlay"></div>
+									<div class="project-desc">
+										<div class="project-content">
+											<h3><a href="https://github.com/Amjad-Khan-360/tufi-app-prototype" target="_blank">TUFI Mobile App UI</a></h3>
+											<p class="project-tags">
+												<span class="tag">Mobile Design</span>
+												<span class="tag">Adobe XD</span>
+											</p>
+											<p class="project-details">A modern and intuitive mobile application interface design created in Adobe XD.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12 animate-box project-item" data-animate-effect="fadeInRight">
+								<div class="project" style="background-image: url(images/Image-Processing. jpg);">
+									<div class="project-overlay"></div>
+									<div class="project-desc">
+										<div class="project-content">
+											<h3><a href="https://github.com/Amjad-Khan-360/ui-designs-impos" target="_blank">IMPOS Web UI</a></h3>
+											<p class="project-tags">
+												<span class="tag">Web Design</span>
+												<span class="tag">UI/UX</span>
+											</p>
+											<p class="project-details">A professional web application interface with modern design principles and user-centric approach.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12 animate-box project-item" data-animate-effect="fadeInLeft">
+								<div class="project" style="background-image: url(images/myporfolio.gif);">
+									<div class="project-overlay"></div>
+									<div class="project-desc">
+										<div class="project-content">
+											<h3><a href="work.html">My Portfolio Website</a></h3>
+											<p class="project-tags">
+												<span class="tag">HTML5</span>
+												<span class="tag">CSS3</span>
+											</p>
+											<p class="project-details">A responsive personal portfolio website showcasing my projects and professional journey.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-12 animate-box project-item" data-animate-effect="fadeInRight">
+								<div class="project" style="background-image: url(images/img-6.jpg);">
+									<div class="project-overlay"></div>
+									<div class="project-desc">
+										<div class="project-content">
+											<h3><a href="work.html">Vacation Landing Page</a></h3>
+											<p class="project-tags">
+												<span class="tag">Web Design</span>
+												<span class="tag">HTML5/CSS3</span>
+											</p>
+											<p class="project-details">An eye-catching landing page for vacation and travel services with modern aesthetics.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Skills Section -->
+				<section class="colorlib-skills skills-section" data-section="skills">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<!-- Skills Header -->
+								<div class="section-header animate-box" data-animate-effect="fadeInUp">
+									<span class="heading-meta">What I Can Do</span>
+									<h2 class="section-title">Technical Skills</h2>
+									<div class="title-underline"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Skills Description -->
+						<div class="row row-bottom-padded-md">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInUp">
+								<p class="skills-intro">I'm proficient in a diverse range of technologies and frameworks.  From backend development with . NET Core and C# to frontend magic with React and modern CSS, I leverage the right tools to build exceptional digital experiences.</p>
+							</div>
+						</div>
+
+						<!-- Skills Grid -->
+						<div class="row skills-grid">
+							<!-- Language Skills -->
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>C++</h3>
+										<span class="skill-level">Intermediate</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-1" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+											<span class="progress-text">60%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>C#</h3>
+										<span class="skill-level">Intermediate</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-2" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+											<span class="progress-text">65%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>JavaScript</h3>
+										<span class="skill-level">Advanced</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-3" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+											<span class="progress-text">80%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>HTML5</h3>
+										<span class="skill-level">Advanced</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-4" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+											<span class="progress-text">85%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>CSS3 & SCSS</h3>
+										<span class="skill-level">Advanced</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-5" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+											<span class="progress-text">85%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>ReactJS</h3>
+										<span class="skill-level">Intermediate</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-6" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+											<span class="progress-text">70%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Framework Skills -->
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>. NET Core</h3>
+										<span class="skill-level">Intermediate</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-1" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+											<span class="progress-text">70%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>SQL Server</h3>
+										<span class="skill-level">Intermediate</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-2" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+											<span class="progress-text">75%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Design Tools -->
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>Adobe XD</h3>
+										<span class="skill-level">Expert</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-3" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+											<span class="progress-text">90%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+								<div class="skill-item">
+									<div class="skill-header">
+										<h3>Figma & Prototyping</h3>
+										<span class="skill-level">Advanced</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar color-4" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+											<span class="progress-text">85%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Education Section -->
+				<section class="colorlib-education education-section" data-section="education">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<!-- Education Header -->
+								<div class="section-header animate-box" data-animate-effect="fadeInUp">
+									<span class="heading-meta">Learning Journey</span>
+									<h2 class="section-title">Education & Certifications</h2>
+									<div class="title-underline"></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Education Timeline -->
+						<div class="row">
+							<div class="col-md-12 animate-box" data-animate-effect="fadeInUp">
+								<div class="education-timeline">
+									<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+										
+										<!-- Education Item 1: Bachelor's -->
+										<div class="education-panel panel panel-default">
+											<div class="panel-heading" role="tab" id="headingOne">
+												<h4 class="panel-title">
+													<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+														🎓 Bachelor of Science in Computer Science
+													</a>
+												</h4>
+												<p class="education-meta">University of Engineering and Technology, Lahore</p>
+											</div>
+											<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+												<div class="panel-body">
+													<p class="education-intro"><strong>Core Coursework & Specializations:</strong></p>
+													<div class="row">
+														<div class="col-md-6">
+															<ul class="education-list">
+																<li>💻 Advanced Programming & Software Development</li>
+																<li>🔗 Distributed Systems & Concurrent Programming</li>
+																<li>🌐 Web Development & Modern Technologies</li>
+															</ul>
+														</div>
+														<div class="col-md-6">
+															<ul class="education-list">
+																<li>📊 Advanced Algorithms & Data Structures</li>
+																<li>🏗️ Software Engineering Principles</li>
+																<li>🗄️ Database Management & SQL</li>
+															</ul>
+														</div>
+													</div>
+													<div class="row" style="margin-top: 1rem;">
+														<div class="col-md-6">
+															<ul class="education-list">
+																<li>💾 Computer Systems & Architecture</li>
+																<li>🖥️ Operating Systems & Networks</li>
+															</ul>
+														</div>
+														<div class="col-md-6">
+															<ul class="education-list">
+																<li>🎨 UI/UX Design & User Experience</li>
+																<li>🔍 Human-Computer Interaction</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<!-- Education Item 2: Intermediate -->
+										<div class="education-panel panel panel-default">
+											<div class="panel-heading" role="tab" id="headingTwo">
+												<h4 class="panel-title">
+													<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+														📚 Intermediate in Computer Sciences
+													</a>
+												</h4>
+												<p class="education-meta">Pre-University Level</p>
+											</div>
+											<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+												<div class="panel-body">
+													<p class="education-intro"><strong>Key Learning Areas:</strong></p>
+													<ul class="education-list">
+														<li>🖥️ Fundamentals of C++ Programming</li>
+														<li>🔧 Software Engineering Core Concepts</li>
+														<li>📐 Introduction to Data Structures</li>
+														<li>🎯 Problem Solving & Algorithm Design</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
+										<!-- Education Item 3: Coursera Certificate -->
+										<div class="education-panel panel panel-default">
+											<div class="panel-heading" role="tab" id="headingThree">
+												<h4 class="panel-title">
+													<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+														🏆 Successful Negotiation:  Essential Skills for Business
+													</a>
+												</h4>
+												<p class="education-meta">Coursera Professional Certificate</p>
+											</div>
+											<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+												<div class="panel-body">
+													<p class="education-intro"><strong>Negotiation Skills Acquired:</strong></p>
+													<div class="row">
+														<div class="col-md-6">
+															<ul class="education-list">
+																<li>👂 Active Listening & Perspective Understanding</li>
+																<li>💬 Effective Communication Strategies</li>
+																<li>🤝 Problem-Solving & Win-Win Solutions</li>
+																<li>📋 Strategic Planning & Preparation</li>
+															</ul>
+														</div>
+														<div class="col-md-6">
+															<ul class="education-list">
+																<li>💪 Persuasion & Influence Techniques</li>
+																<li>😌 Emotion Management Under Pressure</li>
+																<li>🎯 Decision Making & Risk Management</li>
+																<li>🔄 Flexibility & Adaptive Strategies</li>
+															</ul>
+														</div>
+													</div>
+													<p class="education-note"><em>This certification demonstrates strong interpersonal skills essential for professional success and team collaboration.</em></p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Education Item 4: Secondary -->
+										<div class="education-panel panel panel-default">
+											<div class="panel-heading" role="tab" id="headingFive">
+												<h4 class="panel-title">
+													<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+														🔬 High School Secondary Education
+													</a>
+												</h4>
+												<p class="education-meta">Science Stream - Top Achiever</p>
+											</div>
+											<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+												<div class="panel-body">
+													<p class="education-intro"><strong>Academic Excellence:</strong></p>
+													<ul class="education-list">
+														<li>🥇 <strong>Ranked 1st Position</strong> for two consecutive years</li>
+														<li>📊 School Topper in Science Stream</li>
+														<li>🧪 Core Subjects:  Biology, Chemistry, Physics, Mathematics</li>
+														<li>🎓 Strong foundation in scientific thinking and analytical skills</li>
+													</ul>
+													<p class="education-note"><em>These foundational years instilled discipline, analytical thinking, and a passion for continuous learning. </em></p>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Contact Section -->
+				<section class="colorlib-contact contact-section" data-section="contact" id="contactsec">
+					<div class="colorlib-narrow-content">
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<!-- Contact Header -->
+								<div class="section-header animate-box" data-animate-effect="fadeInUp">
+									<span class="heading-meta">Let's Connect</span>
+									<h2 class="section-title">Get In Touch</h2>
+									<div class="title-underline"></div>
+									<p class="subtitle-text">Have a project in mind or just want to chat?  I'd love to hear from you!</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="row contact-content">
+							<!-- Contact Information -->
+							<div class="col-md-5 animate-box" data-animate-effect="fadeInLeft">
+								<div class="contact-info">
+									<!-- Email -->
+									<div class="contact-item">
+										<div class="contact-icon">
+											<i class="icon-mail"></i>
+										</div>
+										<div class="contact-text">
+											<h4>Email</h4>
+											<p><a href="mailto:amjadkhanniazi010@gmail.com">amjadkhanniazi010@gmail. com</a></p>
+										</div>
+									</div>
+
+									<!-- Location -->
+									<div class="contact-item">
+										<div class="contact-icon">
+											<i class="icon-map"></i>
+										</div>
+										<div class="contact-text">
+											<h4>Location</h4>
+											<p>Computer Science Department<br>UET Lahore, Pakistan 54890</p>
+										</div>
+									</div>
+
+									<!-- Phone -->
+									<div class="contact-item">
+										<div class="contact-icon">
+											<i class="icon-phone"></i>
+										</div>
+										<div class="contact-text">
+											<h4>Phone</h4>
+											<p><a href="tel:+923134993546">+92 (313) 499-3546</a></p>
+										</div>
+									</div>
+
+									<!-- Social Links -->
+									<div class="contact-social">
+										<h4>Follow Me</h4>
+										<ul class="social-icons">
+											<li><a href="#" title="Facebook"><i class="icon-facebook2"></i></a></li>
+											<li><a href="https://twitter.com/AmjadKhanNiaz11" title="Twitter"><i class="icon-twitter2"></i></a></li>
+											<li><a href="https://www.instagram.com/ligitxmonster/" title="Instagram"><i class="icon-instagram"></i></a></li>
+											<li><a href="https://www.linkedin.com/in/amjad-khan-58232b167/" title="LinkedIn"><i class="icon-linkedin2"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<!-- Contact Form -->
+							<div class="col-md-7 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
+								<div class="contact-form-wrapper">
+									<form action="https://formsubmit.co/amjadkhanniazi010@gmail.com" method="POST" class="contact-form">
+										<input type="hidden" name="_captcha" value="false">
+										<input type="hidden" name="_next" value="https://amjadkhanniazi.github.io/my-cv/">
+										
+										<div class="form-group">
+											<input type="text" name="name" class="form-control" placeholder="Your Name *" required>
+										</div>
+										<div class="form-group">
+											<input type="email" name="email" class="form-control" placeholder="Your Email *" required>
+										</div>
+										<div class="form-group">
+											<input type="text" name="subject" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="message" class="form-control" placeholder="Your Message *" rows="8" required></textarea>
+										</div>
+										<div class="form-group">
+											<button type="submit" class="btn btn-primary btn-send-message">Send Message</button>
+										</div>
+										<p class="form-note"><small>* Required fields</small></p>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div><!-- end: colorlib-main -->
+		</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery. easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/owl. carousel.min.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
